@@ -1,0 +1,35 @@
+.video-item {
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+
+.video-item.item img {
+    max-width: 180px;
+}
+
+.app-header {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px 0;
+    color: #fff;
+}
+
+body {
+    background-color: #181818;
+}
+body p.header {
+    color: #fff !important;
+}
+body .search-bar.ui.segment {
+    background-color: #202020;
+    color: #fff;
+}
+
+body .search-bar.ui.segment input{
+    background-color: #181818;
+}
+body .search-bar.ui.segment input:focus{
+    background-color: #181818;
+    border-color: yellow;
+}

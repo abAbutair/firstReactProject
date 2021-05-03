@@ -27,9 +27,16 @@ body .search-bar.ui.segment {
 }
 
 body .search-bar.ui.segment input{
-    background-color: #181818;
+    background-color: #181818!important;
+    color: #fff!important;
 }
+
 body .search-bar.ui.segment input:focus{
     background-color: #181818;
-    border-color: yellow;
+    border-color: transparent;
+    border-bottom-color: yellow;
+}
+
+.ui.divided.list>.item {
+    border-color: #dedede;
 }
